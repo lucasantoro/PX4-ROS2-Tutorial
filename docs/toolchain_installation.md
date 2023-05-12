@@ -148,8 +148,8 @@ cd px4_ros_com_ws
 ``` bash
 git clone https://github.com/PX4/px4_ros_com.git
 git clone https://github.com/PX4/px4_msgs.git
+source /opt/ros/humble/setup.bash
 ```
-
 - Build them
 
 ``` bash
