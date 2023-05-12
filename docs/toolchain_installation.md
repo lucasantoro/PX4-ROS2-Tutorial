@@ -244,7 +244,10 @@ export ROS_DOMAIN_ID=0
 export PYTHONOPTIMIZE=1
 make px4_sitl gazebo
 ```
-
+- If the command "make px4_sitl gazebo" fail (gazebo not found) run the following and execute again "make px4_sitl gazebo"
+``` bash
+curl -sSL http://get.gazebosim.org | sh
+```
 - Start QGround Controller and Take Off
 
 ``` bash
